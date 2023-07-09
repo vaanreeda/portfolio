@@ -799,10 +799,6 @@ video {
   width: 100vw;
 }
 
-.w-72{
-  width: 18rem;
-}
-
 .cursor-pointer{
   cursor: pointer;
 }
@@ -1003,11 +999,6 @@ video {
 .py-5{
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-}
-
-.px-10{
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
 }
 
 .pt-10{
@@ -1261,11 +1252,6 @@ video {
 
   .md\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .md\:px-0{
-    padding-left: 0px;
-    padding-right: 0px;
   }
 }
 
