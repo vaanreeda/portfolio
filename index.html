@@ -100,17 +100,25 @@
             </div>
 
             <div class="mt-16 flex flex-col items-center gap-5 lg:flex-row">
-               <button
-                  class="rounded-full border border-transparent bg-black px-8 py-3 text-white duration-300 ease-in hover:border-black hover:bg-white hover:text-black">
-                  ติอต่อ
-               </button>
+               <a href="#contact">
+                  <button
+                     class="rounded-full border border-transparent bg-black px-8 py-3 text-white duration-300 ease-in hover:border-black hover:bg-white hover:text-black">
+                     ติอต่อ
+                  </button>
+               </a>
                <div class="flex items-center gap-5">
-                  <i
-                     class="fa-brands fa-facebook grid h-12 w-12 cursor-pointer place-content-center rounded-full bg-white text-2xl duration-300 ease-in hover:bg-black hover:text-white"></i>
-                  <i
-                     class="fa-brands fa-square-instagram grid h-12 w-12 cursor-pointer place-content-center rounded-full bg-white text-2xl duration-300 ease-in hover:bg-black hover:text-white"></i>
-                  <i
-                     class="fa-brands fa-github grid h-12 w-12 cursor-pointer place-content-center rounded-full bg-white text-2xl duration-300 ease-in hover:bg-black hover:text-white"></i>
+                  <a href="https://www.facebook.com/vaanies" target="_blank">
+                     <i
+                        class="fa-brands fa-facebook grid h-12 w-12 cursor-pointer place-content-center rounded-full bg-white text-2xl duration-300 ease-in hover:bg-black hover:text-white"></i>
+                  </a>
+                  <a href="https://www.instagram.com/vhale_vaan/" target="_blank">
+                     <i
+                        class="fa-brands fa-square-instagram grid h-12 w-12 cursor-pointer place-content-center rounded-full bg-white text-2xl duration-300 ease-in hover:bg-black hover:text-white"></i>
+                  </a>
+                  <a href="https://github.com/vaanreeda" target="_blank">
+                     <i
+                        class="fa-brands fa-github grid h-12 w-12 cursor-pointer place-content-center rounded-full bg-white text-2xl duration-300 ease-in hover:bg-black hover:text-white"></i>
+                  </a>
                </div>
             </div>
          </div>
@@ -221,6 +229,64 @@
                   <div class="mx-auto h-3 w-9/12 bg-violet-700"></div>
                </div>
             </div>
+         </div>
+      </section>
+
+      <section id="contact" class="container mb-5 scroll-m-20">
+         <div class="flex h-[30rem] w-full flex-col items-center gap-5 md:h-[25rem] lg:flex-row">
+            <div
+               class="h-full w-full space-y-3 rounded-3xl bg-blue-950 p-10 text-center text-slate-200 lg:w-[34rem] lg:text-start">
+               <h3 class="mb-8 text-xl uppercase text-white">contact</h3>
+               <h3 class="text-lg text-orange-400">Nattapol Eiamsa-ard ( Vaan )</h3>
+               <p><i class="fa-solid fa-phone mr-3"></i>099-292-9915</p>
+               <p><i class="fa-solid fa-envelope mr-3"></i>vaan2134@gmail.com</p>
+            </div>
+
+            <form class="flex h-full w-full flex-col justify-center rounded-3xl bg-blue-950 p-10">
+               <div class="flex w-full flex-col gap-3 md:flex-row">
+                  <label for="name" class="hidden">Full Name</label>
+                  <input
+                     type="name"
+                     name="name"
+                     id="name"
+                     placeholder="Full Name"
+                     class="mt-2 w-full rounded-lg border border-gray-400 bg-white px-3 py-3 font-semibold text-gray-800 focus:border-indigo-500 focus:outline-none dark:border-gray-700 dark:bg-gray-800" />
+
+                  <label for="tel" class="hidden">Number</label>
+                  <input
+                     type="tel"
+                     name="tel"
+                     id="tel"
+                     placeholder="Telephone Number"
+                     class="mt-2 w-full rounded-lg border border-gray-400 bg-white px-3 py-3 font-semibold text-gray-800 focus:border-indigo-500 focus:outline-none dark:border-gray-700 dark:bg-gray-800" />
+               </div>
+
+               <div class="mt-2 flex flex-col">
+                  <label for="email" class="hidden">Email</label>
+                  <input
+                     type="email"
+                     name="email"
+                     id="email"
+                     placeholder="Email"
+                     class="mt-2 w-full rounded-lg border border-gray-400 bg-white px-3 py-3 font-semibold text-gray-800 focus:border-indigo-500 focus:outline-none dark:border-gray-700 dark:bg-gray-800" />
+               </div>
+
+               <div class="mt-2 flex flex-col">
+                  <label for="message" class="hidden">message</label>
+                  <textarea
+                     name="message"
+                     id="message"
+                     rows="5"
+                     placeholder="Message"
+                     class="mt-2 w-full resize-none rounded-lg border border-gray-400 bg-white px-3 py-3 font-semibold text-gray-800 focus:border-indigo-500 focus:outline-none dark:border-gray-700 dark:bg-gray-800"></textarea>
+               </div>
+
+               <button
+                  type="submit"
+                  class="hover:bg-blue-dark mt-3 w-full rounded-lg bg-indigo-600 px-6 py-3 font-bold text-white transition duration-300 ease-in-out hover:bg-indigo-500">
+                  Submit
+               </button>
+            </form>
          </div>
       </section>
 
