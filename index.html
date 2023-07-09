@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Vaan.</title>
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="/build/css/style.css" />
+   </head>
+   <body class="px-5">
+      <header>
+         <nav
+            class="fixed left-0 right-0 top-0 z-40 mx-auto flex w-screen items-center justify-between bg-white px-5 py-5 lg:container lg:px-0">
+            <div class="flex items-center gap-2 text-xl font-medium">
+               <div class="h-5 w-5 rounded-full bg-yellow-400"></div>
+               <a href="#">VAAN</a>
+               <div class="h-1 w-10 bg-yellow-400"></div>
+            </div>
+
+            <ul class="hidden items-center gap-5 font-medium uppercase text-slate-500 lg:flex">
+               <div class="h-1 w-10 bg-yellow-400"></div>
+               <li class="duration-200 ease-in hover:text-black">
+                  <a href="#home">Home</a>
+               </li>
+               <li class="duration-200 ease-in hover:text-black">
+                  <a href="#skills">Skills</a>
+               </li>
+               <li class="duration-200 ease-in hover:text-black">
+                  <a href="#projects">projects</a>
+               </li>
+               <li class="duration-200 ease-in hover:text-black">
+                  <a href="#resume">resume</a>
+               </li>
+               <li class="duration-200 ease-in hover:text-black">
+                  <a href="#contact">contact</a>
+               </li>
+            </ul>
+
+            <!-- navbar mobile -->
+            <div id="hamburger" class="z-50 cursor-pointer text-lg lg:hidden">
+               <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div id="menu" class="absolute left-0 top-0 hidden h-screen w-screen">
+               <div id="close-menu" class="absolute h-screen w-screen bg-black/20"></div>
+               <ul
+                  class="absolute right-0 top-0 z-40 flex h-screen w-2/5 flex-col items-center gap-5 bg-white pt-10 font-medium uppercase text-slate-500 lg:hidden">
+                  <!-- <i class="fa-solid fa-xmark absolute top-5 right-5"></i> -->
+                  <div class="h-1 w-10 bg-yellow-400"></div>
+                  <li id="hLink" class="duration-200 ease-in hover:text-black">
+                     <a href="#home">Home</a>
+                  </li>
+                  <li id="hLink" class="duration-200 ease-in hover:text-black">
+                     <a href="#skills">Skills</a>
+                  </li>
+                  <li id="hLink" class="duration-200 ease-in hover:text-black">
+                     <a href="#projects">projects</a>
+                  </li>
+                  <li id="hLink" class="duration-200 ease-in hover:text-black">
+                     <a href="#resume">resume</a>
+                  </li>
+                  <li id="hLink" class="duration-200 ease-in hover:text-black">
+                     <a href="#contact">contact</a>
+                  </li>
+               </ul>
+            </div>
+         </nav>
+      </header>
+
+      <section
+         id="home"
+         class="container mt-20 flex h-fit w-full scroll-m-20 flex-col-reverse gap-5 lg:h-[40rem] lg:flex-row">
+         <div
+            class="relative flex h-full w-full flex-col items-center justify-between overflow-hidden rounded-3xl bg-slate-300/25 p-10 text-center lg:w-3/5 lg:items-start lg:p-20 lg:text-start">
+            <div
+               class="absolute -right-20 top-28 -z-10 h-80 w-80 overflow-hidden rounded-full bg-red-600 opacity-30 blur-2xl"></div>
+            <div
+               class="absolute -bottom-10 right-0 -z-10 h-96 w-96 overflow-hidden rounded-full bg-yellow-300 opacity-30 blur-2xl"></div>
+
+            <div>
+               <h1 class="text-5xl font-medium leading-normal">
+                  สวัสดีครับ<br />
+                  <span
+                     class="flex items-center justify-center gap-5 font-[Pattaya] text-6xl text-red-500 lg:justify-start">
+                     <div class="mt-1 h-3 w-28 rounded-full bg-yellow-400 lg:hidden"></div>
+                     วาน
+                     <div class="mt-1 h-3 w-28 rounded-full bg-yellow-400"></div
+                  ></span>
+                  ครับ
+               </h1>
+               <p class="mt-4 text-lg text-slate-500">
+                  ผมเป็นมือใหม่ทางด้านการเขียนเว็บไซต์ นี่คือพอร์ตโฟลิโอของผม <br />
+                  ฝากเนื้อฝากตัวด้วยนะครับ
+               </p>
+            </div>
+
+            <div class="mt-16 flex flex-col items-center gap-5 lg:flex-row">
+               <button
+                  class="rounded-full border border-transparent bg-black px-8 py-3 text-white duration-300 ease-in hover:border-black hover:bg-white hover:text-black">
+                  ติอต่อ
+               </button>
+               <div class="flex items-center gap-5">
+                  <i
+                     class="fa-brands fa-facebook grid h-12 w-12 cursor-pointer place-content-center rounded-full bg-white text-2xl duration-300 ease-in hover:bg-black hover:text-white"></i>
+                  <i
+                     class="fa-brands fa-square-instagram grid h-12 w-12 cursor-pointer place-content-center rounded-full bg-white text-2xl duration-300 ease-in hover:bg-black hover:text-white"></i>
+                  <i
+                     class="fa-brands fa-github grid h-12 w-12 cursor-pointer place-content-center rounded-full bg-white text-2xl duration-300 ease-in hover:bg-black hover:text-white"></i>
+               </div>
+            </div>
+         </div>
+         <div class="h-40 w-full overflow-hidden rounded-3xl lg:h-[40rem] lg:w-2/5">
+            <img
+               class="h-full w-full rounded-3xl object-cover duration-500 hover:scale-125"
+               src="./imgs/1678104648131.JPG"
+               alt="me" />
+         </div>
+      </section>
+
+      <section
+         id="skills"
+         class="container relative my-5 scroll-m-20 overflow-hidden rounded-3xl bg-gradient-to-r from-slate-600 to-slate-300/40 p-10 text-center lg:text-start">
+         <!-- <div class="relative h-full w-full"> -->
+         <h3 class="mb-2 text-xl uppercase text-yellow-300">skills</h3>
+         <div class="my-5 grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-5">
+            <div class="skill-card">
+               <img class="w-20 md:w-28" src="./imgs/skills/html.png" alt="html" />
+               <p class="text-center uppercase">html</p>
+            </div>
+
+            <div class="skill-card">
+               <img class="w-20 md:w-28" src="./imgs/skills/css.png" alt="css" />
+               <p class="text-center uppercase">css</p>
+            </div>
+
+            <div class="skill-card">
+               <img class="w-20 md:w-28" src="./imgs/skills/javascript.png" alt="javascript" />
+               <p class="text-center uppercase">javascript</p>
+            </div>
+
+            <div class="skill-card">
+               <img class="w-20 md:w-28" src="./imgs/skills/tailwind.png" alt="tailwind" />
+               <p class="text-center uppercase">tailwind css</p>
+            </div>
+
+            <div class="skill-card">
+               <img class="w-20 md:w-28" src="./imgs//skills/react.png" alt="react" />
+               <p class="text-center uppercase">react</p>
+            </div>
+
+            <div class="skill-card">
+               <img class="w-20 md:w-28" src="./imgs/skills/nodejs.png" alt="nodejs" />
+               <p class="text-center uppercase">node js</p>
+            </div>
+
+            <div class="skill-card">
+               <img class="w-20 md:w-28" src="./imgs/skills/github1.png" alt="github1" />
+               <p class="text-center uppercase">github</p>
+            </div>
+
+            <div class="skill-card">
+               <img class="w-20 md:w-28" src="./imgs/skills/mongodb.png" alt="mongodb" />
+               <p class="text-center uppercase">mongodb</p>
+            </div>
+
+            <div class="skill-card">
+               <img class="w-20 md:w-28" src="./imgs/skills/firebase.png" alt="firebase" />
+               <p class="text-center uppercase">firebase</p>
+            </div>
+         </div>
+
+         <div
+            class="absolute -bottom-36 -right-20 -z-10 h-[500px] w-[500px] overflow-hidden rounded-full bg-violet-800 opacity-30 blur-2xl"></div>
+         <div
+            class="absolute -bottom-64 right-20 -z-10 h-[500px] w-[500px] overflow-hidden rounded-full bg-violet-800 opacity-30 blur-2xl"></div>
+         <!-- </div> -->
+      </section>
+
+      <section id="projects" class="container mb-5 scroll-m-20">
+         <div class="grid w-full gap-5 lg:grid-cols-2">
+            <div class="flex h-[580px] w-full flex-col items-center gap-5 overflow-hidden rounded-3xl bg-gray-700">
+               <div class="flex w-full items-center justify-between">
+                  <div class="px-8 pt-8">
+                     <h3 class="text-lg uppercase text-white">Todo list</h3>
+                     <p class="text-slate-300">Simple Todo-list.</p>
+                  </div>
+                  <div class="mr-5 flex items-center gap-5 pt-3">
+                     <img class="w-10" src="./imgs/skills/react.png" alt="react" />
+                     <img class="w-10" src="./imgs/skills/tailwind.png" alt="tailwind" />
+                     <img class="w-10" src="./imgs/skills/mongodb.png" alt="mongodb" />
+                  </div>
+               </div>
+               <div class="mt-5 flex items-center justify-center gap-10">
+                  <div class="h-full w-3/5 rounded-br-xl rounded-tr-xl bg-gray-800"></div>
+                  <img class="w-3/5 rounded-xl" src="./imgs/todo-mern-tail.png" alt="todolist" />
+                  <div class="h-full w-3/5 rounded-bl-xl rounded-tl-xl bg-gray-800"></div>
+               </div>
+            </div>
+
+            <div class="flex h-[580px] w-full flex-col items-center gap-5 overflow-hidden rounded-3xl bg-violet-600">
+               <div class="flex w-full items-center justify-between">
+                  <div class="px-8 pt-8">
+                     <h3 class="text-lg uppercase text-white">React CRUD</h3>
+                     <p class="text-slate-300">Simple React CRUD, MongoDB, DaisyUI</p>
+                  </div>
+                  <div class="mr-5 flex items-center gap-5 pt-3">
+                     <img class="w-10" src="./imgs/skills/react.png" alt="react" />
+                     <img class="w-10" src="./imgs/skills/tailwind.png" alt="tailwind" />
+                     <img class="w-10" src="./imgs/skills/mongodb.png" alt="mongodb" />
+                  </div>
+               </div>
+               <div class="px-5">
+                  <img class="z-10 mt-20" src="./imgs/react-crud.png" alt="react-crud" />
+                  <div class="mx-auto h-7 w-11/12 bg-violet-900"></div>
+                  <div class="mx-auto h-5 w-10/12 bg-violet-800"></div>
+                  <div class="mx-auto h-3 w-9/12 bg-violet-700"></div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <script src="script.js"></script>
+   </body>
+</html>
