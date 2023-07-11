@@ -232,7 +232,7 @@
          </div>
       </section>
 
-      <section id="contact" class="container mb-5 scroll-m-20">
+      <section id="contact" class="container mb-72 scroll-m-20 lg:mb-5">
          <div class="flex h-[30rem] w-full flex-col items-center gap-5 md:h-[25rem] lg:flex-row">
             <div
                class="h-full w-full space-y-3 rounded-3xl bg-blue-950 p-10 text-center text-slate-200 lg:w-[34rem] lg:text-start">
@@ -242,7 +242,10 @@
                <p><i class="fa-solid fa-envelope mr-3"></i>vaan2134@gmail.com</p>
             </div>
 
-            <form class="flex h-full w-full flex-col justify-center rounded-3xl bg-blue-950 p-10">
+            <form
+               action="mailto:vaan2134@gmail.com"
+               method="post"
+               class="flex h-full w-full flex-col justify-center rounded-3xl bg-blue-950 p-10">
                <div class="flex w-full flex-col gap-3 md:flex-row">
                   <label for="name" class="hidden">Full Name</label>
                   <input
@@ -289,6 +292,25 @@
             </form>
          </div>
       </section>
+
+      <footer
+         class="h-30 container flex flex-col items-center justify-between gap-5 rounded-t-3xl bg-gradient-to-t from-slate-950 to-slate-600 p-10">
+         <div class="flex items-center gap-5">
+            <a href="https://www.facebook.com/vaanies" target="_blank">
+               <i
+                  class="fa-brands fa-facebook grid h-12 w-12 cursor-pointer place-content-center rounded-full text-2xl text-white/70 duration-200 ease-in hover:text-white"></i>
+            </a>
+            <a href="https://www.instagram.com/vhale_vaan/" target="_blank">
+               <i
+                  class="fa-brands fa-square-instagram grid h-12 w-12 cursor-pointer place-content-center rounded-full text-2xl text-white/70 duration-200 ease-in hover:text-white"></i>
+            </a>
+            <a href="https://github.com/vaanreeda" target="_blank">
+               <i
+                  class="fa-brands fa-github grid h-12 w-12 cursor-pointer place-content-center rounded-full text-2xl text-white/70 duration-200 ease-in hover:text-white"></i>
+            </a>
+         </div>
+         <p class="text-white/50">Copyright &copy;2023 VAAN.</p>
+      </footer>
 
       <script src="script.js"></script>
    </body>
